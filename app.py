@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 import requests
 from io import StringIO
-import plotly
 
 # CSV file raw URL from GitHub
 GITHUB_CSV_URL = 'https://raw.githubusercontent.com/23882972/Driving-Assistance-Sensor/refs/heads/main/Countries%20and%20death%20causes.csv'
