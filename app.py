@@ -26,7 +26,7 @@ if df is not None:
     # Show the data in the app
     st.write("Data Overview:")
     st.write(df.head())
-
+    st.image("https://raw.githubusercontent.com/23882972/Driving-Assistance-Sensor/main/photos/2024-10-14_14-43-34.jpg", caption="Image of the driver during the buzzer", use_column_width=True)
     # Plotting: Ensure 'Year' and 'Smoking' columns exist in the DataFrame
     if 'Year' in df.columns and 'Smoking' in df.columns:
         fig = px.line(df, x='Year', y='Smoking', title='Smoking Data Over Time')
