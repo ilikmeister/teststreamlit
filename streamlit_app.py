@@ -84,7 +84,7 @@ if df is not None:
     rating = ""
     if buzzer_rate > 5:
         rating = "Dangerous"
-    elif buzzer_rate <=5 or buzzer_rate > 2:
+    elif buzzer_rate <=5 and buzzer_rate > 2:
         rating = "Normal"
     else:
         rating = "Accurate"
