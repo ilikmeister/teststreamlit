@@ -56,7 +56,7 @@ if df is not None:
     # Select menu for image of the driver
     selected_image = st.selectbox('Select a time of an image:', alert_df['Timestamp'])
     image_path = f'https://raw.githubusercontent.com/23882972/Driving-Assistance-Sensor/main/photos/{selected_image}.jpg'
-    st.image(image_path, caption="Image of the driver during the alert", use_column_width=True)
+    st.image(image_path, caption="Image from the dash camera during the alert", use_column_width=True)
         
     # Buzzer counter
     buzzer_count = count_rows(alert_df)
